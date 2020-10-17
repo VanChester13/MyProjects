@@ -1,0 +1,223 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title> БыстроНовости </title>
+<style>
+
+article:nth-child(2n) {
+    background: #dab8b8; /* Цвет фона */
+   } 
+
+ article:before {
+  content: "new";
+  color: red;
+  font-size:0,5em;
+}
+
+body { 
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  height: 400px;
+  justify-content: center; 
+  align-items: center;
+  background: url('https://cdn.pixabay.com/photo/2020/10/02/21/42/beach-5622187_1280.jpg') bottom no-repeat;
+  background-size: cover; 
+  border-width: thin;
+  border-style: solid ;
+  border-color:black;
+ }
+
+h1 { 
+  color: rgb(240, 232, 231);
+  font-size: 4rem;
+  font-family:'Times New Roman', Times, serif;
+}
+
+
+footer
+{ 
+  padding-top:20 px;
+  padding-bottom: 60 px;
+  text-align: center;
+}
+
+footer .links {
+  margin-bottom: 50 px;
+}
+
+footer .links >a {
+  color:tomato;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.copyright { 
+  color:rgb(126, 68, 180);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.news {
+  background-color: rgb(251, 255, 218);
+  padding: 50 px 0 32 px;
+  border-width: thin;
+  border-style: solid;
+  border-color:black;
+
+}
+article {
+  width: 768px;
+  margin: 0 auto 32px;
+  padding: 6px 15px; 
+  border-bottom: 1px solid rgb(128, 128, 128); 
+}
+article a {
+  color:rgb(33, 37, 41);
+  text-decoration: none;
+}
+article a:hover {
+  color: rgb(75, 133, 180);
+}
+article h1,h2,h3,h4,h5,h6,h7 { 
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom: 5px;
+  padding-top:50px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 30px;
+}
+.article-meta {
+  color color: rgb (134, 142, 150)
+  margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300 px;
+    object-fit: cover;
+}
+
+article p { 
+  padding-top:10px;
+}
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+     <header> 
+        <h1>Новости</h1>
+     </header>
+     
+      <section class="news">
+          <article> 
+            <a href="#">
+              <h2> Возвращение на Луну: НАСА тестирует новый скафандр</h2>
+              </a>
+              <div class="article-meta">
+                Опубликовал <a href ="#"> Иван Ражев </a>
+                13 октября 2020 года
+                <div>
+                  <img src="https://new-science.ru/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/10/58285-6.jpg.webp">
+                  <p>В рамках миссий Артемиды астронавты, которые ходят по Луне, будут носить новые скафандры. Один из них был недавно испытан в огромном бассейне Космического центра Линдона Б. Джонсона в Хьюстоне.  <br> Считающиеся истинными космическими кораблями, скафандры, использованные в миссиях Аполлона, были очень эффективными, но сегодня у них есть определенные ограничения. Соединенные Штаты стремятся вернуться на Луну в 2024 году. Поэтому НАСА пришлось переосмыслить свое оборудование. Эти новые скафандры, получившие название "Блок внекорабельной мобильности" (EMU), были представлены несколько месяцев назад.</p>
+                </article> 
+                 
+
+                <article> 
+                  <a href="#">
+                  <h3> Два российских космонавта и американский астронавт достигли МКС в рекордно короткие сроки</h3>
+                  </a>
+                  <div class="article-meta">
+                    Опубликовал <a href ="#"> Иван Ражев </a>
+                    14 октября 2020 года
+                    <div>
+                     <img src=" https://new-science.ru/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/10/5896.jpg.webp">
+                     <p> Новый рекорд скорости был побит, чтобы добраться до Международной космической станции, расположенной на орбите в 408 километрах от Земли! 
+                       Благодаря новой системе российской ракеты-носителя "Союз" экипажу потребовалось всего три небольших часа, чтобы совершить этот самый короткий полет в истории.</p>
+                     </article> 
+
+             <article> 
+              <a href="#">   
+               <h4> Пентагон хочет за час перебросить войска в любую точку Земли!</h4>
+                 </a>
+                  <div class="article-meta">
+                   Опубликовал <a href ="#"> Иван Ражев </a>
+                    14 октября 2020 года
+                     <div>
+                      <img src= "https://new-science.ru/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/10/58285-4.jpg.webp">
+                      <p> Знаменитой компании SpaceX скоро предстоит много работы для своего нового клиента. Пентагон дал частному космическому гиганту новую задачу. 
+                        Последнему предстоит разработать своего рода грузовой корабль будущего, способный в рекордно короткие сроки доставить войска и технику в любую точку Земли.</p>    
+                      </article> 
+                       
+
+                      <article> 
+                         <a href="#">  
+                           <h5> Два больших куска космического мусора могут столкнуться сегодня ночью</h5>
+                          </a>
+                          <div class="article-meta">
+                           Опубликовал <a href ="#"> Иван Ражев </a>
+                            15 октября 2020 года
+                             <div>
+                               <img src="https://new-science.ru/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/10/5896-2.jpg.webp">
+                               <p> Служба отслеживания космического мусора LeoLabs предупреждает: ожидается, что в ночь с четверга на пятницу обломок китайской ракеты и бывший российский военный спутник пройдут в нескольких метрах друг от друга.
+                                  По словам исследователей, вероятность столкновения составляет более 10%.</p>
+                               </article> 
+
+                               <article>
+                                  <a href="#">  
+                                    <h6> Впервые физики достигли сверхпроводимости при комнатной температуре</h6>
+                                   </a>
+                                   <div class="article-meta">
+                                    Опубликовал <a href ="#"> Иван Ражев </a>
+                                     16 октября 2020 года
+                                      <div>  
+                                        <img src='https://new-science.ru/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/10/5896-4.jpg.webp'>
+                                        <p> Только что был сделан новый крупный шаг в поисках сверхпроводимости. Впервые физики разработали электрический ток, не встречающий сопротивления при комнатной температуре.</p>
+                                        </article>
+
+
+                                        <article>
+                                        <a href="#">  
+                                          <h7> Российские и британские физики рассчитали максимально возможную скорость звука</h7>
+                                         </a>
+                                         <div class="article-meta">
+                                          Опубликовал <a href ="#"> Иван Ражев </a>
+                                           16 октября 2020 года
+                                            <div>  
+                                              <img src='https://new-science.ru/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/10/62562-7.jpg.webp'>
+                                              <p>Согласно расчетам физиков, основанным на фундаментальных константах, верхний предел скорости звука составляет 36 км в секунду, что в 100 раз превышает скорость звука в воздухе, но намного медленнее света.</p>
+                                                  </article>
+
+
+     </section>
+     <footer> 
+       <div class="links">
+         <a href="#">Вакансии</a>
+         <a href="#">Контакты</a>
+         <a href="#">О нас</a>
+         <a href="#">Реклама</a>
+       </div>
+
+       <div class="copyright">Copyright © БыстроНовости
+         2020</div>
+     </footer>
+   
+</body>
+</html>
